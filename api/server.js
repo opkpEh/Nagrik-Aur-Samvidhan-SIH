@@ -5,6 +5,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 
 
+import authRoutes from './routes/authRoutes';
+
 const app = express();
 dotenv.config();
 app.use(express.json());
@@ -18,6 +20,9 @@ mongoose.connect(process.env.MONGODB_URI, {
     useUnifiedTopology: true
 }).then(() => console.log('DB Connected'))
 .catch((err) => console.log(err.message));
+
+// Routes
+app.use("/auth",authRoutes);
 
 
 // Basic Listen 
