@@ -4,7 +4,6 @@ import { CheckCircle, XCircle, ChevronLeft, ChevronRight, RefreshCw, Eye, EyeOff
 import '../styles/InteractiveRightsQuiz.css';
 import { quizQuestions } from '../questions/first';
 
-
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
