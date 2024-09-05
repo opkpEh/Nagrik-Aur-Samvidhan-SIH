@@ -103,6 +103,7 @@ export default function App() {
           transition={{ duration: 0.8 }}
           className="mb-16"
         >
+<<<<<<< HEAD
           <div className="flex flex-col md:flex-row items-center mb-8">
             <div className="md:w-1/2 pr-8">
               <h2 className="text-5xl font-bold mb-6 text-caputMortuum leading-tight">
@@ -138,6 +139,29 @@ export default function App() {
                 </motion.button>
               </div>
             </div>
+=======
+          <h2 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+            Master the Constitution Through Immersive Learning
+          </h2>
+          <p className="text-xl mb-8 text-gray-300">Embark on a journey through interactive experiences and cutting-edge technology</p>
+          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <motion.button
+              onClick={()=> navigate('/articles')}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition-colors flex items-center justify-center"
+            >
+              Start Learning <ChevronRight className="ml-2 h-5 w-5" />
+            </motion.button>
+            <motion.button
+            onClick={()=> navigate('/play')}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-colors flex items-center justify-center"
+            >
+              Play Now <GamepadIcon className="ml-2 h-5 w-5" />
+            </motion.button>
+>>>>>>> 9801a5a3d144db9dd9d8c88e831f60383c094c9d
           </div>
         </motion.section>
 
