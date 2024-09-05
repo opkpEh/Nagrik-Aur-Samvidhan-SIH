@@ -5,6 +5,7 @@ import LearnScreen from './screens/LearnScreen';
 import Stories from './screens/Stories';
 import PlayScreen from './screens/PlayScreen';
 import FlashCardApp from './screens/FlashCardsApp';
+import InteractiveArticles from './screens/Article';
 export default function App() {
 
   
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/stories" element={<Stories />} />
           <Route path="/flashcards" element={<FlashCardApp />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/articles" element={<InteractiveArticles />} />
           {/* <Route path="/play" element={<PlayPage />} /> */}
         </Routes>
       </div>
