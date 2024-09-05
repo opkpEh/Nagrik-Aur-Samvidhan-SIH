@@ -20,6 +20,7 @@ export default function App() {
           <Route path="/flashcards" element={<FlashCardApp />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/articles" element={<InteractiveArticles />} />
+          <Route path="/articles" element={<InteractiveArticles />} />
           {/* <Route path="/play" element={<PlayPage />} /> */}
         </Routes>
       </div>

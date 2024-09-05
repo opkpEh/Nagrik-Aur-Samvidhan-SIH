@@ -251,7 +251,7 @@ const LandingPage = () => {
           <p className="text-xl mb-8 text-gray-300">Embark on a journey through interactive experiences and cutting-edge technology</p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <motion.button
-              onClick={()=> navigate('/learning')}
+              onClick={()=> navigate('/articles')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition-colors flex items-center justify-center"
